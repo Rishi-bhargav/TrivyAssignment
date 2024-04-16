@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:      
       - name: Build Docker image
-        run: docker build -t quotegenerator:v1 . -f dockerfile
+        run: docker build -f dockerfile -t quotegenerator:v1 . 
