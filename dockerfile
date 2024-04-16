@@ -5,3 +5,4 @@ WORKDIR /app
 COPY . /app
 
 CMD ["python", "./quote_generator.py"]
+
